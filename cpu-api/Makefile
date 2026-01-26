@@ -2,17 +2,17 @@
 all: p1 p2 p3 p4
 
 clean:
-	rm -f p1 p2 p3 p4
+	rm -f p1.o p2.o p3.o p4.o
 
 p1: p1.c
-	gcc -o p1 p1.c -Wall
+	gcc -o p1.o p1.c -Wall
 
 p2: p2.c
-	gcc -o p2 p2.c -Wall
+	gcc -o p2.o p2.c -Wall
 
 p3: p3.c
-	gcc -o p3 p3.c -Wall
+	gcc -o p3.o p3.c -Wall
 
 p4: p4.c
-	gcc -o p4 p4.c -Wall
+	gcc -o p4.o p4.c -Wall
 
